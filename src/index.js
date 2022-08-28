@@ -1,11 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import { BrowserRouter } from 'react-router-dom';
+
+// simplebar config 
+
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const rootElement = ReactDOM.createRoot(document.getElementById('root'));
+rootElement.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
