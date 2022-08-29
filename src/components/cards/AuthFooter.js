@@ -21,7 +21,7 @@ const AuthFooter = () => {
         textAlign={matchDownSM ? "center" : "inherit"}
       >
         <Typography variant="subtitle2" color="secondary" component="span">
-          &copy; React Dashboard Template By&nbsp;
+          &copy; React Platform By&nbsp;
           <Typography
             component={Link}
             variant="subtitle2"

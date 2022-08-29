@@ -163,7 +163,7 @@ const AuthLogin = () => {
                       />
                     }
                     label={
-                      <Typography variant="h6">Keep me sign in</Typography>
+                      <Typography variant="h6">Recuérdame</Typography>
                     }
                   />
                   <Link
@@ -172,7 +172,7 @@ const AuthLogin = () => {
                     to=""
                     color="text.primary"
                   >
-                    Forgot Password?
+                    ¿Olvidaste tu contraseña?
                   </Link>
                 </Stack>
               </Grid>
@@ -192,15 +192,15 @@ const AuthLogin = () => {
                     variant="contained"
                     color="primary"
                   >
-                    Login
+                    Entrar
                   </Button>
                 </AnimateButton>
               </Grid>
-              <Grid item xs={12}>
+              {/* <Grid item xs={12}>
                 <Divider>
-                  <Typography variant="caption"> Login with</Typography>
+                  <Typography variant="caption">Inicia con</Typography>
                 </Divider>
-              </Grid>
+              </Grid> */}
               {/* <Grid item xs={12}>
                 //
               </Grid> */}

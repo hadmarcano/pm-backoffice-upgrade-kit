@@ -16,10 +16,10 @@ const LoaderWrapper = styled("div")(({ theme }) => ({
 
 // ==============================|| Loader ||============================== //
 
-export default function Loader() {
-  return (
-    <LoaderWrapper>
+const Loader = () => (
+  <LoaderWrapper>
       <LinearProgress color="primary" />
-    </LoaderWrapper>
-  );
-}
+  </LoaderWrapper>
+);
+
+export default Loader;

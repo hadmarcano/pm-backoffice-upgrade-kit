@@ -53,6 +53,11 @@ const Palette = (mode) => {
         paper: paletteColor.grey[0],
         default: paletteColor.grey.A50,
       },
+      commercial:{
+        primary: paletteColor.purple[700],
+        secondary: paletteColor.purple[500],
+        disabled: paletteColor.purple[400],
+      }
     },
   });
 };

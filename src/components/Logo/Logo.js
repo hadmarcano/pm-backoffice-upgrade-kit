@@ -9,7 +9,7 @@ const Logo = () => {
 
   return (
     <>
-      <img src={logo} alt="FaceId" width="100" />
+      <img src={logo} alt="FaceId" width="300"/>
     </>
   );
 };

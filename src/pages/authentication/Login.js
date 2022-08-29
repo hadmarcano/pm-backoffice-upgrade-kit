@@ -27,7 +27,7 @@ const Login = () => (
             sx={{ textDecoration: "none" }}
             color="primary"
           >
-            ¿Olvidaste tu contraseña?
+            ¿Eres un cliente nuevo?
           </Typography>
         </Stack>
       </Grid>

@@ -1,7 +1,7 @@
 // ==============================|| PRESET THEME - THEME SELECTOR ||============================== //
 
 const Theme = (colors) => {
-  const { blue, red, gold, cyan, green, grey } = colors;
+  const { blue, red, gold, cyan, green, grey, purple } = colors;
   const greyColors = {
     0: grey[0],
     50: grey[1],
@@ -21,6 +21,21 @@ const Theme = (colors) => {
     A700: grey[14],
     A800: grey[16],
   };
+
+  const purpleColors = {
+    0: purple[0],
+    50: purple[1],
+    100: purple[2],
+    200: purple[3],
+    300: purple[4],
+    400: purple[5],
+    500: purple[6],
+    600: purple[7],
+    700: purple[8],
+    800: purple[9],
+    900: purple[10],
+  };
+
   const contrastText = "#fff";
 
   return {
@@ -86,6 +101,7 @@ const Theme = (colors) => {
       contrastText,
     },
     grey: greyColors,
+    purple:purpleColors
   };
 };
 
