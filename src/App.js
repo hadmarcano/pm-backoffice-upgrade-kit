@@ -1,10 +1,15 @@
+// Project Import
+import ScrollTop from "./components/ScrollTop";
+import ThemeCustomization from "./themes";
+import Routes from "./routes";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>U-Face ID</p>
-      </header>
-    </div>
+    <ThemeCustomization>
+      <ScrollTop>
+        <Routes />
+      </ScrollTop>
+    </ThemeCustomization>
   );
 }
 

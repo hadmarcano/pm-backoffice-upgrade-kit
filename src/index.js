@@ -1,17 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 
-// simplebar config 
+// simplebar config | scrollbar
+import "simplebar-react/dist/simplebar.min.css";
 
+// thirds
 
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// Project import
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-const rootElement = ReactDOM.createRoot(document.getElementById('root'));
+const rootElement = ReactDOM.createRoot(document.getElementById("root"));
 rootElement.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter basename="/">
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
