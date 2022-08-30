@@ -28,7 +28,7 @@ import AnimateButton from "../../../components/@extended/AnimateButton";
 // assets
 import { EyeOutlined, EyeInvisibleOutlined } from "@ant-design/icons";
 
-// ============================|| FIREBASE - LOGIN ||============================ //
+// ============================|| LOGIN ||============================ //
 
 const AuthLogin = () => {
   const [checked, setChecked] = React.useState(false);
@@ -81,7 +81,9 @@ const AuthLogin = () => {
             <Grid container spacing={3}>
               <Grid item xs={12}>
                 <Stack spacing={1}>
-                  <InputLabel htmlFor="email-login">Email Address</InputLabel>
+                  <InputLabel htmlFor="email-login">
+                    Correo electrónico
+                  </InputLabel>
                   <OutlinedInput
                     id="email-login"
                     type="email"
@@ -105,7 +107,7 @@ const AuthLogin = () => {
               </Grid>
               <Grid item xs={12}>
                 <Stack spacing={1}>
-                  <InputLabel htmlFor="password-login">Password</InputLabel>
+                  <InputLabel htmlFor="password-login">Contraseña</InputLabel>
                   <OutlinedInput
                     fullWidth
                     error={Boolean(touched.password && errors.password)}
@@ -162,9 +164,7 @@ const AuthLogin = () => {
                         size="small"
                       />
                     }
-                    label={
-                      <Typography variant="h6">Recuérdame</Typography>
-                    }
+                    label={<Typography variant="h6">Recuérdame</Typography>}
                   />
                   <Link
                     variant="h6"

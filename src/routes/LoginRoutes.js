@@ -1,4 +1,4 @@
-import React, { lazy } from 'react';
+import React, { lazy } from "react";
 
 // Project import
 import Loadable from "../components/Loadable";
@@ -10,7 +10,7 @@ const AuthLogin = Loadable(
 );
 
 const LoginRoutes = {
-  path: "/login",
+  path: "/",
   element: <MinimalLayout />,
   children: [
     {

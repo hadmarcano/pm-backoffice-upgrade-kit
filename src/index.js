@@ -6,17 +6,21 @@ import { BrowserRouter } from "react-router-dom";
 import "simplebar-react/dist/simplebar.min.css";
 
 // thirds
+import { Provider as ReduxProvider } from "react-redux";
 
 // Project import
 import App from "./App";
+import { store } from "./store";
 import reportWebVitals from "./reportWebVitals";
 
 const rootElement = ReactDOM.createRoot(document.getElementById("root"));
 rootElement.render(
   <React.StrictMode>
-    <BrowserRouter basename="/">
-      <App />
-    </BrowserRouter>
+    <ReduxProvider store={store}>
+      <BrowserRouter basename="/">
+        <App />
+      </BrowserRouter>
+    </ReduxProvider>
   </React.StrictMode>
 );
 

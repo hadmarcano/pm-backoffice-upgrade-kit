@@ -6,7 +6,7 @@ export default function Tab(theme) {
       styleOverrides: {
         root: {
           minHeight: 46,
-          color: theme.palette.text.primary,
+          color: theme.palette.commercial.primary,
         },
       },
     },
